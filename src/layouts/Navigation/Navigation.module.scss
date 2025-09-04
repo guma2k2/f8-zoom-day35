@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    /* xám nhạt */
+    padding: 0 20px;
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        /* khoảng cách giữa các item */
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.item {
+    display: flex;
+}
+
+.link {
+    display: inline-block;
+    padding: 12px 8px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #374151;
+    /* xám đậm */
+    text-decoration: none;
+    transition: color 0.2s ease, border-color 0.2s ease;
+
+    &:hover {
+        color: #2563eb;
+        /* xanh primary khi hover */
+    }
+}
+
+.active {
+    color: #2563eb;
+    /* màu chữ xanh khi active */
+    border-bottom: 2px solid #2563eb;
+    /* underline bằng border */
+}

@@ -1,0 +1,54 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #6b7280;
+}
+
+.profileWrap {
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.profileName {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.profileUsername {
+    font-size: 1.4rem;
+    color: #6b7280;
+}
+
+.profileEmail,
+.profilePhone,
+.profileWebsite,
+.profileAddress {
+    font-size: 1.5rem;
+    color: #374151;
+    line-height: 1.4;
+}
+
+.profileWebsite {
+    color: #2563eb;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+        color: #1d4ed8;
+    }
+}
