@@ -64,9 +64,9 @@ function Todo() {
                         todos.map((todo) => (
                             <li key={todo.id} className={styles.todoItem}>
                                 <label htmlFor={`todo-${todo.id}`}>{todo.text}</label>
-                                <a href="#!" className={styles.btnDanger} onClick={() => handleDelete(todo.id)}>
+                                <div className={styles.btnDanger} onClick={() => handleDelete(todo.id)}>
                                     Xóa
-                                </a>
+                                </div>
                                 <input
                                     checked={todo.completed}
                                     type="checkbox"
